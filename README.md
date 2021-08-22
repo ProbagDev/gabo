@@ -1,6 +1,9 @@
 # G.A.B.O
 Gear and Build Organizer. Basically just a glorified search engine for gear to hopefully help with building a character.
 
+## Live Version
+https://probagdev.github.io/gabo/
+
 ## Usage
 - Enter your API Key
 - Choose your Character
