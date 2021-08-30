@@ -29,6 +29,14 @@ h1 {
     width: 75%;
 }
 
+#searchBtn:disabled {
+    cursor: not-allowed;
+    color: darkgray;
+}
+#searchBtn:disabled:hover {
+    background-color: #dee1e3;
+}
+
 .form-control {
     border-radius: 2px;
 }
