@@ -123,6 +123,10 @@ function showEquipment(name) {
 
     });
 
+    //Replace character header
+    $("#characterName").text(name);
+    $("#professionImage").attr("src", PROFESSION_ICONS[CURRENT_CHARACTER.profession]);
+    $("#profession").text(CURRENT_CHARACTER.profession);
     $("#results").show();
 
     $("#characterMenu").addClass('hidden');
