@@ -36,11 +36,12 @@
         <div class="d-grid gap-2 mt-2">
             <button id="checkGear" type="button" onclick="checkGear()">Check Gear</button>
         </div>
+        <i>The API key should have all account permissions</i>
     </div>
 </div>
 <div id="errorContainer" class="d-flex flex-column justify-content-center align-items-center pt-5 hidden">
-    <div id="parsingError" class="p-2">
-        <p class="m-0"><b>Parsing Error:</b> Could be caused by a bad link, difficult to parse build, or non-standard build</p>
+    <div id="permissionsError" class="p-2">
+        <p class="m-0"><b>Permissions Error:</b> That api key is not authorized to access endpoints required by this tool</p>
         <button type="button" onclick="back();">Back</button>
     </div>
 </div>
